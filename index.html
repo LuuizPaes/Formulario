@@ -1,70 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
+
     <title>formulário</title>
+  
   </head>
   <body>
+<h1>Luiz Paes Loja</h1>
     <div class="box">
       <form action="">
         <fieldset>
-          <legend> <b>Formulário de clientes</b></legend><b>
+          <legend><b>Formulário de clientes</b></legend><b>
             <br>
             <div class="inputBox">
               <input type="text" name="nome" id="nome" class="inputUser" required>
-              <label for="Nome">Nome completo</label>
+              <label for="Nome" class="labelInput">Nome completo</label>
               </div>
               <br><br>
               <div class="inputBox">
                 <input type="e-mail" name="email" id="email" class="inputUser" required>
-                <label for="email">Email</label>
+                <label for="email" class="labelInput">Email</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
                   <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                  <label for="telefone">Telefone</label>
+                  <label for="telefone"class="labelInput">Telefone</label>
                   </div>
-                  <br><br>
                   <p>Sexo:</p>
                   <input type="radio" id="feminino" name="genero" value="feminino" required>
                   <label for="feminino">Feminino</label>
+                  <br>
                   <input type="radio" id="masculino" name="genero" value="masculino" required>
                   <label for="masculino">masculino</label>
+                  <br>
                   <input type="radio" id="outros" name="genero" value="outros" required>
                   <label for="outros">Outros</label>
-                  <br><br><br><br>
-                  <div class="inputBox"> 
-                  <label for="data_nascimento"><b>Data de nascimento</b></label>
-                  <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
-                  </div>
                   <br><br>
+                  
+                  <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                  <input type="date" name="data_nascimento" id="data_nascimento"  required>
+                  <br><br><br>
+                
                   <div class="inputBox">   
 
                   <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                <label for="cidade">Cidade</label>
+                <label for="cidade"class="labelInput">Cidade</label>
               </div>
               <br><br>
               <div class="inputBox"> 
                 <input type="text" name="estado" id="estado" class="inputUser" required>
-                <label for="estado">Estado</label>
+                <label for="estado"class="labelInput">Estado</label>
               </div>
               <br><br>
               <div class="inputBox"> 
                 <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                <label for="endereco">Endereço</label>
+                <label for="endereco"class="labelInput">Endereço</label>
               </div>
               <br><br>
                   <input type="submit" name="submit" id="submit">
 
-                  
-            </div>
+                </fieldset>
+              </form>
 
+            </div>
+          </body>
+        </html>
         
-        </fieldset>
-      </form>
-    </div>
-  </body>
-</html>
